@@ -1,5 +1,4 @@
-import { TodoList } from "./todoList/TodoList"
-import {TodoContainer} from './todoList/components/TodoContainer'
+import {TodoContainer} from './todoList/components/todoContainer/TodoContainer'
 
 const App = () => {
   return (

@@ -16,7 +16,6 @@ export const addTodo = (todo) => {
     })
         .then(res => {
             if (!res.ok) throw new Error('Ошибка создания задачи');
-            //return res.json() нет пока небходимости возращать тело потому что обновлять задачи буду все равно с помощью get
         })
 }
 

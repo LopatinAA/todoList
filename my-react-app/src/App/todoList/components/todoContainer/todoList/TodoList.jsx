@@ -1,22 +1,23 @@
-import { TodoItem } from "./TodoItem"
+import { TodoItem } from "./todoItem/TodoItem"
+import style from './TodoList.module.css'
 
 
-export const TodoList = ({todos, isSubmitting, updateTodo, deleteTodo, searchQuery}) => {
+export const TodoList = ({todos, isSubmitting, updateTodo, deleteTodo }) => {
     if (todos.length === 0) {
         return <p>Задач нет</p>
     }
     return (
-        <ul>
-            {todos.map((todo) => (
+        <div className={style.todoList}>
+            {todos.map((todo, index) => (
                 <TodoItem
                     key={todo.id}
                     todo={todo}
+                    index={index}
                     updateTodo={updateTodo}
                     deleteTodo={deleteTodo}
                     isSubmitting={isSubmitting}
-                    searchQuery={searchQuery}
                 />
             ))}
-        </ul>
+        </div>
     )
 }

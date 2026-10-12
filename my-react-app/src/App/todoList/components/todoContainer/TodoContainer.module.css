@@ -1,0 +1,18 @@
+.container{
+    width: 30vw;
+    height: 100vh;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.error{
+    background: '#fee';
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.totalTasks{
+    margin-top: 20px;
+    color: '#666';
+}
