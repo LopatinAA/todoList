@@ -1,10 +1,6 @@
 В первую очередь это учебный проект для моего портфолио, созданный для демонстрации навыков.  
 TodoList это инструмент для планирования, структурирования и контроля выполнения текущих дел.  
 
-
-Для начала использования необходимо запустить сервер: `npx json-server --watch src/db.json --port 3003`  
-Затем нужно стартануть проект: `npm run dev`  
-
 <img width="288" height="335" alt="image" src="https://github.com/user-attachments/assets/b63fb6fd-28d9-4c23-8c32-43774affda51" />  
 
 Стек технологий: React, Vite, CSS, json-server  
@@ -16,10 +12,10 @@ TodoList это инструмент для планирования, струк
 
 Инструкция по запуску  
 1. Установить зависимости
-npm install
+`npm install`
 
 2. Запустить фейковый API (в отдельном терминале)
-npx json-server --watch src/db.json --port 3003
+`npx json-server --watch src/db.json --port 3003`
 
 3. Запустить фронтенд
-npm run dev
+`npm run dev`
