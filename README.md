@@ -4,7 +4,7 @@ TodoList это инструмент для планирования, струк
 <img width="288" height="335" alt="image" src="https://github.com/user-attachments/assets/b63fb6fd-28d9-4c23-8c32-43774affda51" />  
 
 Стек технологий: React, Vite, CSS, json-server  
-* Функционал
+Функционал
   * добавление задач
   * удаление
   * отметка о выполнении
